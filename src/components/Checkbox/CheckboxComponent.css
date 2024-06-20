@@ -1,0 +1,60 @@
+.checkbox-container {
+    cursor: pointer;
+    display: flex;
+    height: 42px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox-container:hover .checklist-icon {
+    visibility: visible;
+}
+
+.checklist-icon {
+    visibility: hidden;
+    margin-top: 4px; 
+}
+
+.checklist-icon-active {
+    margin-top: 4px; 
+}
+
+.checklist-icon:hover {
+    visibility: visible;
+}
+
+.checkbox-icon-container-default {
+    width: 23px;
+    height: 23px;
+    border-radius: 6px;
+    border: 1px solid #cdcdcd;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-icon-container-default:hover {
+    border: 1px solid #bdbdbd;
+}
+
+.checkbox-icon-container-light {
+    width: 23px;
+    height: 23px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cdcdcd;
+    background-color: #2469F6;
+}
+
+.checkbox-icon-container-light:hover {
+    border: 1px solid #bdbdbd;
+    background-color: #2469F6;
+}
+
+.label {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(31, 33, 40, 1);
+    text-align: left;
+}

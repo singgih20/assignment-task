@@ -1,0 +1,21 @@
+.button-container {
+  display: flex;
+}
+.custom-button {
+    background-color: #FFCE22; 
+    color: black; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    display: inline-block; 
+    text-align: center; 
+    flex: 1;
+    height: 50px;
+    font-family: "Montserrat";
+  }
+  
+  .custom-button:hover {
+    background-color: #FFD84D; /* Warna saat hover */
+  }
